@@ -1,0 +1,74 @@
+/*Start Global Rules */
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box ;
+}
+
+body{
+  background-image:url(https://images.unsplash.com/photo-1465056836041-7f43ac27dcb5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80) ;
+  background-size: cover ;
+  background-position: center center;
+  background-repeat: no-repeat;
+  font-family: 'Oswald', sans-serif;
+  background-color: #777;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+/*End Global Rules */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top:-100px;
+}
+
+.container h2{
+  color:white;
+  font-size: 50px;
+  text-shadow: 1px 1px rgb(25, 145, 115);
+  padding-top:30px;
+  padding-bottom: 30px;
+  font-weight: normal;
+}
+
+.container .content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:20px 45px;
+  max-width:100%;
+  align-items: center;
+  color:white;
+  font-size: 20px;
+  text-align:center;
+  width:600px;
+}
+
+.container .content h4{
+  text-align: center;
+  font-size:50px;
+  padding:30px 10px 5px;
+  text-shadow: 1px 1px rgb(25, 145, 115);
+}
+
+@media (max-width:767px){
+  .container .content{
+    width:350px;
+  }
+  .container h2,
+.container .content h4{
+    font-size:40px;
+    text-align: center;
+  }
+}
+  .container .content span{
+  text-align: center;
+  text-shadow: 1px 1px rgb(25, 145, 115);
+
+}
